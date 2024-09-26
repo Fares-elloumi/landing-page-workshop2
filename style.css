@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+
+}
+
+    
+
+.volvo{
+    width: 20%;
+}
+
+.loop{
+    width: 40px;
+}
+
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+}
+
+.main-nav-list{
+    /* width: 300px; */
+    list-style: none;
+    display: flex;
+    gap: 32px;
+    /* justify-content: space-around; */
+    
+}
+
+.list-item{
+    display: inline-block;
+    text-decoration: none;
+
+}
+
+.logga-in{
+    margin-left: auto;
+}
+
+.right-container {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.second-nav{
+    background-image: url("https://www.volvocars.com/images/cs/v3/assets/blt618dcb179a89242d/blt84af0b0f4c7ad4f2/66d7e4dabe0a562a6c9cf24e/xc90-phev-hero-21x9-desktop.jpg?branch=prod_alias&auto=webp&iar=0&w=1920&imdensity=1");
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items:flex-end ;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+}
+
+.text{
+    color: white;
+    margin: 100px;
+}
+
+.utförska{
+    color: black;
+    background-color: white;
+    width: 40%;
+    height: 30px;
+    border-radius: 5%;
+    text-align: center;
+    padding: 10px;
+    
+}
